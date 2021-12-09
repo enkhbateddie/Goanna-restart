@@ -1,0 +1,12 @@
+#Friday 10/Dec/2021
+#Tutor: George
+#Topics: Python Sys Ops
+
+$Reg-Ex: common patterns used in searching and filtering
+
+^NOTE: both grep and sed use REGEX 
+^NOTE: UNIX, Perl, Java, Python use regex
+
+#Demo File: demo.txt
+TYPE: text 
+SIZE: 236
