@@ -25,3 +25,25 @@ def sort(dicts):
 #Task 1: Define a function that deletes an element from the dictionary 
 #Task 2: Define a function that updates an element in a dictionary
 #Task 3: use the above two functions in the dictionaryOps main()
+
+#Task 1:
+def delete(dicts,key):
+    del dicts[key]
+    return dicts
+
+#Task 2:
+def update(dicts,key,value):
+    dicts[key] = value
+    return dicts
+
+#Task 3:
+def dictionaryOps():
+    dicts = create_dict()
+    print("Before:")
+    sort(dicts)
+    key = int(read("Key = "))
+    value = read("Value = ")
+    dicts = update(dicts,key,value)
+    print("After:")
+    sort(dicts)
+
